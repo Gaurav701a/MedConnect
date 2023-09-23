@@ -1,4 +1,4 @@
-<h1 align="center">MEDICARE</h1>
+<h1 align="center">MedConnect</h1>
 
 <p>Built during Webster 2021, Avishkar</p>
 
