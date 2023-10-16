@@ -5,9 +5,6 @@
 ## Introduction
 It is an online medical appointments and consultation website, built using NodeJS in backend and ReactJS in frontend. 
 
-## Demo Video
-<a href='https://youtu.be/qcMfFGy47tA'>Demo Video</a>
-
 ## Table of Contents
 - [Problem Statement](#problem-statement)
 - [Description](#description)
