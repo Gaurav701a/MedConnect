@@ -1,7 +1,5 @@
 <h1 align="center">MedConnect</h1>
 
-<p>Built during Webster 2021, Avishkar</p>
-
 ## Introduction
 It is an online medical appointments and consultation website, built using NodeJS in backend and ReactJS in frontend. 
 
