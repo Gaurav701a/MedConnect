@@ -9,7 +9,7 @@ It is an online medical appointments and consultation website, built using NodeJ
 - [Technology Used](#technology-used)
 - [Features](#features)
 - [Local Installation](#local-installation)
-- [Demo Images](#demo-images)
+
 
 
 ### Description
