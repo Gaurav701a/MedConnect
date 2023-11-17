@@ -11,8 +11,6 @@ It is an online medical appointments and consultation website, built using NodeJ
 - [Local Installation](#local-installation)
 - [Demo Images](#demo-images)
 
-### Problem Statement
-- “During a heated encounter with the police, Nairobi was shot. Now the gang members need to revive her.Rio wants to save her and needs a doctor’s assistance immediately. All they have access to is the internet. Can you quickly design a platform for having online consultation with the doctors?”
 
 ### Description
 - Through this web app, people can signup as patients and book appointments with doctors and get an online/offline consultation. 
@@ -41,8 +39,8 @@ It is an online medical appointments and consultation website, built using NodeJ
 
 ### Local Installation
 ```
-git clone https://github.com/Sneha0607/medicare.git
-cd medicare
+git clone https://github.com/Gaurav701a/MedConnect.git
+cd MedConnect
 
 #Open two terminals
 
@@ -58,22 +56,3 @@ npm start
 ```
 To get the database working, the firebase configuration needs to be added in client/src/firebase.js file after cloning the repository.
 
-### Demo Images
-![home](https://github.com/Sneha0607/medicare/blob/master/images/1.png)
-<br/>
-![doctor signup](https://github.com/Sneha0607/medicare/blob/master/images/6.png)
-<br/>
-![doctor dashboard](https://github.com/Sneha0607/medicare/blob/master/images/2.png)
-<br/>
-![view doctors](https://github.com/Sneha0607/medicare/blob/master/images/3.png)
-<br/>
-![book appointment](https://github.com/Sneha0607/medicare/blob/master/images/4.png)
-<br/>
-![meeting](https://github.com/Sneha0607/medicare/blob/master/images/8.png)
-<br/>
-![prescription](https://github.com/Sneha0607/medicare/blob/master/images/5.png)
-<br/>
-![graphs](https://github.com/Sneha0607/medicare/blob/master/images/7.png)
-<br/>
-![admin](https://github.com/Sneha0607/medicare/blob/master/images/9.png)
-<br/>
