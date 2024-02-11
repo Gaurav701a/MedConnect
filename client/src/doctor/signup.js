@@ -102,11 +102,12 @@ const Doctor_Signup = () => {
   // SIGN UP WITH GOOGLE FUNCTION
   const signInWithGoogle = () => {
     const provider = new firebase.auth.GoogleAuthProvider();
+    // console.log(provider);
     firebase
       .auth()
       .signInWithPopup(provider)
       .then((cred) => {
-        //console.log(cred);
+        // console.log(cred);
 
         // PUSHING USER DATA IN DB
         const userRef = db.doc(`users/${cred.user.uid}`);
@@ -203,7 +204,7 @@ const Doctor_Signup = () => {
                     id="password"
                     autoComplete="new-password"
                     value={password}
-                    type="password"
+                 
                     onChange={(e) => setPassword(e.target.value)}
                     error={passwordError}
                   />
@@ -220,7 +221,7 @@ const Doctor_Signup = () => {
                     id="cpassword"
                     autoComplete="confirm-password"
                     value={cpassword}
-                    type="password"
+                  
                     onChange={(e) => setCPassword(e.target.value)}
                   />
                 </Grid>
@@ -250,7 +251,6 @@ const Doctor_Signup = () => {
                 <Button
                   variant="outline"
                   fullWidth
-                  variant="contained"
                   sx={{ mt: 1, mb: 2 }}
                   startIcon={<GoogleIcon />}
                   onClick={() => signInWithGoogle()}
