@@ -4,7 +4,6 @@
 It is an online medical appointments and consultation website, built using NodeJS in backend and ReactJS in frontend. 
 
 ## Table of Contents
-- [Problem Statement](#problem-statement)
 - [Description](#description)
 - [Technology Used](#technology-used)
 - [Features](#features)
